@@ -1,7 +1,38 @@
 ﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Public.master.cs" Inherits="EindOpdracht6DAD.Public" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder" runat="server">
-          <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">
-      </asp:ContentPlaceHolder>
+  
+   <nav class="navbar navbar-expand-md   sticky-top">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+
+      
+            <!-- Verhuur -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                    Verhuur
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="Huren.aspx?type=Alpine">Alpineskiën</a>
+                    <a class="dropdown-item" href="Huren.aspx?type=Langlaufen">Langlaufen</a>
+                </div>
+            </li>
+
+            <!-- Aanmelden -->
+            <li class="nav-item">
+                <a class="nav-link" href="Aanmelden.aspx">Aanmelden</a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">
+    </asp:ContentPlaceHolder>
 </asp:Content>

@@ -13,3 +13,12 @@ header, footer {
     background-color: var(--header-footer-color);
     color: var(--text-navbar-color);
 }
+
+.nav {
+    color:black;
+}
+
+a {
+    color:black;
+ 
+}
