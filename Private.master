@@ -2,6 +2,38 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder" runat="server">
+
+  
+   <nav class="navbar navbar-expand-md   sticky-top">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+
+      
+            <!-- Beheer -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                    beheer
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="BeheerMerken.aspx">Merken</a>
+                    <a class="dropdown-item" href="BeheerMateriaal.aspx">Materiaal</a>
+                    <a class="dropdown-item" href="BeheerMaten.aspx">Maten</a>
+                </div>
+            </li>
+
+            <!-- Afnmelden -->
+            <li class="nav-item">
+                <a class="nav-link" href="Afmelden.aspx">Afmmelden</a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+
           <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">
       </asp:ContentPlaceHolder>
 </asp:Content>

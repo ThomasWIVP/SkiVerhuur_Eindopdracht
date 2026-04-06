@@ -71,6 +71,7 @@
     <Content Include="Afmelden.aspx" />
     <Content Include="BeheerMaten.aspx" />
     <Content Include="BeheerMateriaal.aspx" />
+    <Content Include="BeheerMerken.aspx" />
     <Content Include="css\bootstrap-grid.css" />
     <Content Include="css\bootstrap-grid.min.css" />
     <Content Include="css\bootstrap-grid.rtl.css" />
@@ -162,6 +163,13 @@
     </Compile>
     <Compile Include="BeheerMateriaal.aspx.designer.cs">
       <DependentUpon>BeheerMateriaal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BeheerMerken.aspx.cs">
+      <DependentUpon>BeheerMerken.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BeheerMerken.aspx.designer.cs">
+      <DependentUpon>BeheerMerken.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
