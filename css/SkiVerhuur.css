@@ -36,3 +36,11 @@ nav a {
     text-decoration: none;
   
 }
+
+
+.h-btn {
+    background-color: var(--header-footer-color);
+    color: var(--text-navbar-color);
+    padding: 10px 20px;
+    width: 100%;
+}
