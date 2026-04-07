@@ -9,16 +9,30 @@
 
 }
 
-header, footer {
+header, footer{
     background-color: var(--header-footer-color);
     color: var(--text-navbar-color);
 }
 
-.nav {
+/*.nav {
     color:black;
 }
 
-a {
+nav a {
     color:black;
  
+}*/
+
+
+
+
+
+.btnCaroecelDefault {
+    display: inline-block; /* prevents full width stretch */
+    width: auto; /* ensure it doesn't take 100% */
+    padding: 10px 20px;
+    background-color: var(--header-footer-color);
+    color: var(--text-navbar-color);
+    text-decoration: none;
+  
 }
