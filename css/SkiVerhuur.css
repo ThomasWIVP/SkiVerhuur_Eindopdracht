@@ -9,7 +9,7 @@
 
 }
 
-header, footer{
+header, footer, .btnAanmelden{
     background-color: var(--header-footer-color);
     color: var(--text-navbar-color);
 }
@@ -51,4 +51,9 @@ h3 {
 
 a {
     text-decoration:none;
+}
+
+.btnAanmelden {
+    width:100%;
+   
 }
