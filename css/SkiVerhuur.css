@@ -9,7 +9,7 @@
 
 }
 
-header, footer{
+header, footer, .btnAanmelden{
     background-color: var(--header-footer-color);
     color: var(--text-navbar-color);
 }
@@ -43,4 +43,17 @@ nav a {
     color: var(--text-navbar-color);
     padding: 10px 20px;
     width: 100%;
+}
+
+h3 {
+    color:var(--header-footer-color);
+}
+
+a {
+    text-decoration:none;
+}
+
+.btnAanmelden {
+    width:100%;
+   
 }
