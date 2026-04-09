@@ -32,7 +32,7 @@
             </div>
 
             <div class="btn btnAanmelden mb-3">
-                <a>Aanmelde</a>
+                <a>Aanmelden</a>
             </div>
         </div>
     </div>
