@@ -4,15 +4,23 @@
 
     <div class="container">
 
-        <h1>Aanmelden</h1>
+        <h1 class="mb-3">Aanmelden</h1>
+        <div>
+                 <asp:Label ID="lblMessage" runat="server" CssClass="alert  d-block"></asp:Label>
+        </div>
+   
+    
+        <div  class="lblMessage">
+            <p></p>
+        </div>
 
         <div>
             <div class="mb-3">
                 <div class="form-label">
-                    Gebruikersnaame
+                    Gebruikersnaam
                 </div>
                 <div>
-                    <asp:TextBox CssClass="form-control" ID="a_txtGnaam" runat="server"></asp:TextBox>
+                    <asp:TextBox CssClass="form-control" ID="a_txtGnaam" runat="server" OnTextChanged="a_txtGnaam_TextChanged"></asp:TextBox>
 
                 </div>
 
@@ -31,8 +39,8 @@
 
             </div>
 
-            <div class="btn btnAanmelden mb-3">
-                <a>Aanmelde</a>
+            <div class=" mb-3">
+                <asp:Button ID="btnAanmelden" CssClass="btn btnAanmelden" runat="server" Text="Aanmelden" OnClick="btnAanmelden_Click" />
             </div>
         </div>
     </div>

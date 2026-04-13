@@ -44,6 +44,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -90,6 +91,7 @@
     <Content Include="css\bootstrap.rtl.min.css" />
     <Content Include="css\SkiVerhuur.css" />
     <Content Include="Default.aspx" />
+    <Content Include="DefaultAangemeld.aspx" />
     <Content Include="Huren.aspx" />
     <Content Include="Images\Capital.A.GIF" />
     <Content Include="Images\Capital.B.GIF" />
@@ -178,6 +180,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DefaultAangemeld.aspx.cs">
+      <DependentUpon>DefaultAangemeld.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DefaultAangemeld.aspx.designer.cs">
+      <DependentUpon>DefaultAangemeld.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Huren.aspx.cs">
       <DependentUpon>Huren.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -241,6 +250,12 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SvLib\SvLib.csproj">
+      <Project>{d8c22412-f7ff-44c6-aaa0-7f59a06b15dc}</Project>
+      <Name>SvLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
