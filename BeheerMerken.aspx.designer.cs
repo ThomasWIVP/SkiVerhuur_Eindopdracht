@@ -15,6 +15,15 @@ namespace EindOpdracht6DAD
     {
 
         /// <summary>
+        /// lblMessage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMessage;
+
+        /// <summary>
         /// ddlMerk control.
         /// </summary>
         /// <remarks>
@@ -24,12 +33,39 @@ namespace EindOpdracht6DAD
         protected global::System.Web.UI.WebControls.DropDownList ddlMerk;
 
         /// <summary>
-        /// txtWwoord control.
+        /// txtNaam control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtWwoord;
+        protected global::System.Web.UI.WebControls.TextBox txtNaam;
+
+        /// <summary>
+        /// btnNieuw control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnNieuw;
+
+        /// <summary>
+        /// btnBewaren control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnBewaren;
+
+        /// <summary>
+        /// btnVerwijderen control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnVerwijderen;
     }
 }
