@@ -39,6 +39,9 @@ namespace EindOpdracht6DAD
 
             ddlMerk.DataBind();
             ddlMerk.Items.Insert(0, new ListItem("-- Kies merk --", "0"));
+
+            
+
         }
 
         protected void ddlMerk_SelectedIndexChanged(object sender, EventArgs e)
