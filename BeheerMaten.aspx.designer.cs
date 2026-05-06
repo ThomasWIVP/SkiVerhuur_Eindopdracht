@@ -24,13 +24,13 @@ namespace EindOpdracht6DAD
         protected global::System.Web.UI.WebControls.Label lbMateriaalType;
 
         /// <summary>
-        /// dllMateriaalTypen control.
+        /// dllMateriaalTypena control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList dllMateriaalTypen;
+        protected global::System.Web.UI.WebControls.DropDownList dllMateriaalTypena;
 
         /// <summary>
         /// lblMerk control.
@@ -76,6 +76,15 @@ namespace EindOpdracht6DAD
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblMaten;
+
+        /// <summary>
+        /// rptMaten control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater rptMaten;
 
         /// <summary>
         /// lblAantal control.

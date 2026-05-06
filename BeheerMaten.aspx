@@ -9,15 +9,15 @@
         <div>
             <%--    materiaal type--%>
             <asp:Label CssClass="form-label" ID="lbMateriaalType" runat="server" Text="Selecteer een materiaaltype"></asp:Label>
-            <asp:DropDownList AutoPostBack="true" CssClass="form-control" ID="dllMateriaalTypen" runat="server"></asp:DropDownList>
+            <asp:DropDownList AutoPostBack="true" CssClass="form-control" ID="dllMateriaalTypena" runat="server" ></asp:DropDownList>
 
             <%--   merk--%>
             <asp:Label CssClass="form-label" ID="lblMerk" runat="server" Text="Selecteer een merk"></asp:Label>
-            <asp:DropDownList AutoPostBack="true" CssClass="form-control" ID="ddlmerken" runat="server"></asp:DropDownList>
+            <asp:DropDownList AutoPostBack="true" CssClass="form-control" ID="ddlmerken" runat="server" OnSelectedIndexChanged="ddlmerken_SelectedIndexChanged"  ></asp:DropDownList>
 
             <%--    materiaal--%>
             <asp:Label CssClass="form-label" ID="lblMateriaal" runat="server" Text="Selecteer een materiaal"></asp:Label>
-            <asp:DropDownList AutoPostBack="true" CssClass="form-control" ID="dllMaterialen" runat="server"></asp:DropDownList>
+            <asp:DropDownList AutoPostBack="true" CssClass="form-control" ID="dllMaterialen" runat="server" OnSelectedIndexChanged="dllMaterialen_SelectedIndexChanged"  ></asp:DropDownList>
 
             <hr />
 
@@ -25,6 +25,17 @@
             <div class="mb-3">
                 <%-- maat--%>
                 <asp:Label CssClass="form-label" ID="lblMaten" runat="server" Text="Selecteer een maat"></asp:Label>
+
+                <div>
+                              <%-- dit is met ai.--%>
+               <asp:Repeater ID="rptMaten" runat="server">
+                           <ItemTemplate>
+                               <a href='BeheerMaten.aspx?id=<%# Eval("Id") %>'>
+                                   <%# Eval("Name") %>
+                               </a> -
+                           </ItemTemplate>
+              </asp:Repeater>
+                </div>
 
             </div>
 
@@ -52,6 +63,8 @@
 
             <div class="mb-3">
                 <asp:Label CssClass="form-label" ID="lblMaat" runat="server" Text="Selecteer een maat"></asp:Label>
+     
+
                 <asp:TextBox CssClass="form-control" ID="txtMaat" runat="server"></asp:TextBox>
             </div>
 

@@ -27,7 +27,7 @@
 
             <!-- Afnmelden -->
             <li class="nav-item">
-                <a class="nav-link" href="Afmelden.aspx">Afmmelden</a>
+                <a class="nav-link" href="Afmelden.aspx">Afmelden</a>
             </li>
 
         </ul>

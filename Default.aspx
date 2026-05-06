@@ -4,28 +4,32 @@
 
 
 
+    <%--//van bootstrap--%>
 
 
-
-    <div id="carouselExampleCaptions" class="carousel slide">
+    <div id="carouselExampleCaptions" class="carousel slide carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="4000"
+        data-bs-pause="false">
+       
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
         </div>
         <div class="carousel-inner">
-      
+
             <div class="carousel-item active">
-                <img src="Images/ski.jpg" class="d-block w-100"  />
-              
+                <img src="Images/ski.jpg" class="d-block w-100" />
+
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Langlaufen</h5>
-                    <a  class="btnCaroecelDefault" href="Huren.aspx">Klik hier om je langfaufmateriaal te huren.</a>
+                    <h2>Langlaufen</h2>
+                    <a class="btnCaroecelDefault" href="Huren.aspx">Klik hier om je langfaufmateriaal te huren.</a>
                 </div>
             </div>
             <div class="carousel-item">
-             <img src="Images/xc.jpg" class="d-block w-100" />
+                <img src="Images/xc.jpg" class="d-block w-100" />
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Alpineskiën</h5>
+                    <h2>Alpineskiën</h2>
                     <a class="btnCaroecelDefault" href="Huren.aspx">Klik hier om je alpineskiëmateriaal te huren.</a>
                 </div>
             </div>

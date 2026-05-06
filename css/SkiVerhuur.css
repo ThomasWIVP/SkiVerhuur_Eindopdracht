@@ -69,3 +69,8 @@ a {
     padding: 10px 20px;
     width: 100%;
 }
+
+
+nav{
+    border-bottom: 2px solid var(--header-footer-color);
+}
